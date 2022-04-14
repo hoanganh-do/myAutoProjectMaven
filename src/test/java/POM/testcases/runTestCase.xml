@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object Model test example">
+    <parameter name="browserType" value="chrome" />
+    <parameter name="appURL" value="https://anhtester.startkatalyst.com/account/sign-in" />
+
+    <test name="sample test">
+        <classes>
+            <class name="POM.testcases.signInTest">
+                <methods>
+                    <include name="signIn" />
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- myAutoProjectMaven -->
+</suite> <!-- Default Suite -->
+
